@@ -8,8 +8,8 @@ end
 def select_name_and_motto_of_char_with_longest_motto
   "select name, length(motto)
   from characters
-  group by motto
-  having motto = max(length(motto));"
+  order by length(motto) desc
+  limit 1;"
 end
 
 
