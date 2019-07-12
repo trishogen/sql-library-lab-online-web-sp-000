@@ -19,3 +19,6 @@ INSERT INTO characters (name, motto, species, author_id, series_id) values ('Ran
 
 INSERT INTO subgenres (name) values ('Heroic');
 INSERT INTO subgenres (name) values ('Epic');
+
+INSERT INTO authors (name) values ('Patrick Rothfuss');
+INSERT INTO authors (name) values ('Robert Jordan');
