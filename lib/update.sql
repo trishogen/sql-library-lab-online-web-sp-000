@@ -1,1 +1,1 @@
-update characters set species =  'Martian' where id =8;
+update characters set species =  'Martian' where id = 8;
