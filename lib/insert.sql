@@ -16,3 +16,7 @@ INSERT INTO characters (name, motto, species, author_id, series_id) values ('Ran
 INSERT INTO characters (name, motto, species, author_id, series_id) values ('Egwene', 'motto 6', 'Channeler', 2, 2);
 INSERT INTO characters (name, motto, species, author_id, series_id) values ('Random 1', 'motto 7', 'Human', 2, 2);
 INSERT INTO characters (name, motto, species, author_id, series_id) values ('Random 2', 'motto 8', 'Fae', 2, 2);
+
+INSERT INTO subgenres (name) values ('Heroic');
+INSERT INTO subgenres (name) values ('Epic');
+
